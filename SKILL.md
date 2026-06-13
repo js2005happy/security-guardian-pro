@@ -1,12 +1,16 @@
 ---
 name: security-guardian-pro
+version: 1.1.0
 description: >
-  企业级全栈安全审计专家。当用户提到"安全审计"、"安全检查"、"帮我检查漏洞"、"安全扫描"、
+  企业级全栈安全审计专家（Skill + MCP Server 双模）。
+  当用户提到"安全审计"、"安全检查"、"帮我检查漏洞"、"安全扫描"、
   "看看有没有安全问题"、"渗透测试视角审查"、"依赖项安全"、"敏感信息检测"、"安全加固"、
   "security review"、"audit security"、"dependency scan"、"hardcoded secrets"、
   "cloud security"、"合规检查"、"供应链安全"时应触发此技能。
   四阶段漏洞挖掘流程：侦察→扫描→验证→报告，覆盖 OWASP Top 10、CWE Top 25、供应链安全、
   云原生安全、敏感数据泄露、合规风险。内置无害化 PoC 验证与法律红线。
+  v1.1.0 新增：配套 MCP Server（npm: security-guardian-pro），提供 security_audit /
+  scan_secrets / scan_injection 三个自动化审计工具，内置 17 条检测规则引擎。
 allowed_tools:
   - Read
   - Grep
