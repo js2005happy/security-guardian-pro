@@ -1,0 +1,11 @@
+tests/
+vitest.config.ts
+src/
+tsconfig.json
+.gitignore
+.git/
+references/
+skills/
+SKILL.md
+.vscode/
+.idea/
