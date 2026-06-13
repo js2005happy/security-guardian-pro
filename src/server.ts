@@ -16,7 +16,7 @@ export function createServer(): ServerContext {
 
   const server = new McpServer({
     name: "security-guardian-pro",
-    version: "1.0.0",
+    version: "1.1.1",
   });
 
   registerAllTools(server);
@@ -27,6 +27,6 @@ export function createServer(): ServerContext {
     logger.info("服务器已关闭");
   };
 
-  logger.info("MCP Server 就绪 — security-guardian-pro v1.0.0");
+  logger.info("MCP Server 就绪 — security-guardian-pro v1.1.1");
   return { server, shutdown };
 }
